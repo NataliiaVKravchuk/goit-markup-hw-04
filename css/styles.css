@@ -138,7 +138,7 @@ body {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 
 .contact-icon {
@@ -214,7 +214,6 @@ body {
 	border: 4px solid transparent;
 	padding: 10px 32px;
 	min-width: 200px;
-	height: 50px;
 	text-align: center;
 }
 
@@ -351,6 +350,8 @@ body {
 	justify-content: center;
 	width: 100%;
 	height: 100%;
+	outline: transparent;
+	border: 1px solid transparent;
 }
 
 .client-icon {
@@ -409,7 +410,6 @@ body {
 	margin-bottom: 9px;
 }
 .footer-soc-links {
-	padding-top: 12px;
 	margin-left: 70px;
 }
 .footer-soc-link {
@@ -451,7 +451,6 @@ body {
 	border: 4px solid transparent;
 	padding: 6px 22px;
 	min-width: 73px;
-	height: 38px;
 	text-align: center;
 	background: #f5f4fa;
 }
@@ -480,11 +479,6 @@ body {
 	margin-bottom: 0;
 }
 
-.work-item:hover,
-.work-item:focus {
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .works-title,
 .works-text {
 	font-family: inherit;
@@ -509,3 +503,6 @@ body {
 	border-right: 1px solid var(--second-light-color);
 	border-bottom: 1px solid var(--second-light-color);
 }
+
+.work-link { display: block;}
+.work-link:hover, .work-link:focus {box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
